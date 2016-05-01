@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14E11f" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="2fQ-Qa-ow2">
+            <objects>
+                <controller id="Fbc-ND-nJb">
+                    <items>
+                        <button width="136" height="103" alignment="left" title="Chime the Time" id="5cF-li-WfH"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="438" y="237"/>
+        </scene>
+    </scenes>
+</document>

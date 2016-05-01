@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D2134" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TimeChime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Face.png" translatesAutoresizingMaskIntoConstraints="NO" id="oaW-7d-wrn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="30" y="230" width="340" height="340"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MinuteHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="SJi-sT-NKm" userLabel="Minute Hand">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.84999999999999987" height="0.84999999999999987"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HourHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="HLZ-aX-YJh" userLabel="Hour Hand">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.84999999999999987" height="0.84999999999999987"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SecondHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="I6v-su-9bU" userLabel="Second Hand">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.69999999999999973" height="0.69999999999999973"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to TimeChime" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKY-D9-1Zh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the screen to chime the time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="jyQ-nV-kl3">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v92-dc-vEf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="About this app">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aboutThisApp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cme-7e-cVp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.84517655229166078" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="v92-dc-vEf" firstAttribute="centerX" secondItem="HLZ-aX-YJh" secondAttribute="centerX" id="Bt5-JF-eNK"/>
+                            <constraint firstItem="jyQ-nV-kl3" firstAttribute="centerX" secondItem="HLZ-aX-YJh" secondAttribute="centerX" id="Kf5-oM-C0U"/>
+                            <constraint firstItem="HLZ-aX-YJh" firstAttribute="leading" secondItem="I6v-su-9bU" secondAttribute="leading" id="Kkc-sh-x7R"/>
+                            <constraint firstItem="I6v-su-9bU" firstAttribute="top" secondItem="SJi-sT-NKm" secondAttribute="top" id="SeE-dF-sVC"/>
+                            <constraint firstItem="I6v-su-9bU" firstAttribute="leading" secondItem="SJi-sT-NKm" secondAttribute="leading" id="TAV-72-Pgc"/>
+                            <constraint firstItem="jyQ-nV-kl3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Wjm-63-nSM"/>
+                            <constraint firstItem="jyQ-nV-kl3" firstAttribute="centerX" secondItem="wKY-D9-1Zh" secondAttribute="centerX" id="ZE7-fK-v6T"/>
+                            <constraint firstItem="HLZ-aX-YJh" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="dNL-9J-zO9"/>
+                            <constraint firstAttribute="bottom" secondItem="v92-dc-vEf" secondAttribute="bottom" constant="20" symbolic="YES" id="eHx-2j-MeD"/>
+                            <constraint firstItem="jyQ-nV-kl3" firstAttribute="top" secondItem="wKY-D9-1Zh" secondAttribute="bottom" constant="8" symbolic="YES" id="sBl-3J-lex"/>
+                            <constraint firstItem="jyQ-nV-kl3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="57" id="txo-Mw-Ly2"/>
+                            <constraint firstItem="wKY-D9-1Zh" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="vFU-7h-9gI"/>
+                            <constraint firstItem="HLZ-aX-YJh" firstAttribute="centerY" secondItem="I6v-su-9bU" secondAttribute="centerY" id="xN9-v8-XIR"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="oaW-7d-wrn"/>
+                                <exclude reference="SJi-sT-NKm"/>
+                                <exclude reference="HLZ-aX-YJh"/>
+                                <exclude reference="I6v-su-9bU"/>
+                                <exclude reference="wKY-D9-1Zh"/>
+                                <exclude reference="jyQ-nV-kl3"/>
+                                <exclude reference="v92-dc-vEf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Kf5-oM-C0U"/>
+                                <exclude reference="Wjm-63-nSM"/>
+                                <exclude reference="ZE7-fK-v6T"/>
+                                <exclude reference="sBl-3J-lex"/>
+                                <exclude reference="txo-Mw-Ly2"/>
+                                <exclude reference="vFU-7h-9gI"/>
+                                <exclude reference="Bt5-JF-eNK"/>
+                                <exclude reference="eHx-2j-MeD"/>
+                                <exclude reference="Kkc-sh-x7R"/>
+                                <exclude reference="dNL-9J-zO9"/>
+                                <exclude reference="xN9-v8-XIR"/>
+                                <exclude reference="SeE-dF-sVC"/>
+                                <exclude reference="TAV-72-Pgc"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="oaW-7d-wrn"/>
+                                <include reference="SJi-sT-NKm"/>
+                                <include reference="HLZ-aX-YJh"/>
+                                <include reference="I6v-su-9bU"/>
+                                <include reference="wKY-D9-1Zh"/>
+                                <include reference="jyQ-nV-kl3"/>
+                                <include reference="v92-dc-vEf"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Kf5-oM-C0U"/>
+                                <include reference="Wjm-63-nSM"/>
+                                <include reference="ZE7-fK-v6T"/>
+                                <include reference="sBl-3J-lex"/>
+                                <include reference="txo-Mw-Ly2"/>
+                                <include reference="vFU-7h-9gI"/>
+                                <include reference="Bt5-JF-eNK"/>
+                                <include reference="eHx-2j-MeD"/>
+                                <include reference="Kkc-sh-x7R"/>
+                                <include reference="dNL-9J-zO9"/>
+                                <include reference="xN9-v8-XIR"/>
+                                <include reference="SeE-dF-sVC"/>
+                                <include reference="TAV-72-Pgc"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="STD-9h-Nrf" appends="YES" id="erd-aj-KWA"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="aboutButton" destination="v92-dc-vEf" id="yXf-yc-BgN"/>
+                        <outlet property="hourHand" destination="HLZ-aX-YJh" id="Ri6-Le-VJr"/>
+                        <outlet property="minuteHand" destination="SJi-sT-NKm" id="qsp-kp-fBq"/>
+                        <outlet property="secondHand" destination="I6v-su-9bU" id="Gbx-jr-7DR"/>
+                        <outlet property="tap" destination="STD-9h-Nrf" id="sSZ-cC-fCB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="STD-9h-Nrf">
+                    <connections>
+                        <action selector="playSound:" destination="vXZ-lx-hvc" id="sph-8M-ha6"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Face.png" width="340" height="340"/>
+        <image name="HourHand.png" width="46" height="314"/>
+        <image name="MinuteHand.png" width="46" height="330"/>
+        <image name="SecondHand.png" width="46" height="330"/>
+    </resources>
+</document>
