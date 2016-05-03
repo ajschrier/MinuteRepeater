@@ -7,6 +7,8 @@ def HourChime(currenthour):
 	print
 	for i in range(currenthour):
 		print "DONG"
+		time.sleep(0.5)
+	time.sleep(0.2)
 
 def MinuteChime(currentminute):
 	print
@@ -18,12 +20,17 @@ def MinuteChime(currentminute):
 	if a!=0:
 		for i in range(a):
 			print "DING-DONG"
+			time.sleep(0.5)
+		time.sleep(0.1)
 	if b!=0:
 		print
 		for i in range(b):
 			print "DING"
+			time.sleep(0.5)
 
 HourChime(int(hour))
 MinuteChime(int(minute))
+
+time.sleep(1)
 
 print "\nThe current time is " + hour + ":" + minute
