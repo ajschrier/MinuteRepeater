@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F5366D1DCFB9E0006BFF32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F5366C1DCFB9E0006BFF32 /* main.m */; };
+		09F536701DCFB9E0006BFF32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F5366F1DCFB9E0006BFF32 /* AppDelegate.m */; };
+		09F536731DCFB9E0006BFF32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F536721DCFB9E0006BFF32 /* ViewController.m */; };
+		09F536761DCFB9E0006BFF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F536741DCFB9E0006BFF32 /* Main.storyboard */; };
+		09F536781DCFB9E0006BFF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F536771DCFB9E0006BFF32 /* Assets.xcassets */; };
+		09F5367B1DCFB9E0006BFF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F536791DCFB9E0006BFF32 /* LaunchScreen.storyboard */; };
+		09F536861DCFB9E0006BFF32 /* TimeChimeObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F536851DCFB9E0006BFF32 /* TimeChimeObjCTests.m */; };
+		09F536911DCFB9E0006BFF32 /* TimeChimeObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F536901DCFB9E0006BFF32 /* TimeChimeObjCUITests.m */; };
+		09F536A51DCFBA90006BFF32 /* Ding-dong.aif in Resources */ = {isa = PBXBuildFile; fileRef = 09F5369E1DCFBA90006BFF32 /* Ding-dong.aif */; };
+		09F536A61DCFBA90006BFF32 /* Ding.aif in Resources */ = {isa = PBXBuildFile; fileRef = 09F5369F1DCFBA90006BFF32 /* Ding.aif */; };
+		09F536A71DCFBA90006BFF32 /* Dong.aif in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A01DCFBA90006BFF32 /* Dong.aif */; };
+		09F536A81DCFBA90006BFF32 /* Face.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A11DCFBA90006BFF32 /* Face.png */; };
+		09F536A91DCFBA90006BFF32 /* HourHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A21DCFBA90006BFF32 /* HourHand.png */; };
+		09F536AA1DCFBA90006BFF32 /* MinuteHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A31DCFBA90006BFF32 /* MinuteHand.png */; };
+		09F536AB1DCFBA90006BFF32 /* SecondHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A41DCFBA90006BFF32 /* SecondHand.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F536821DCFB9E0006BFF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F536601DCFB9E0006BFF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F536671DCFB9E0006BFF32;
+			remoteInfo = TimeChimeObjC;
+		};
+		09F5368D1DCFB9E0006BFF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F536601DCFB9E0006BFF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F536671DCFB9E0006BFF32;
+			remoteInfo = TimeChimeObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F536681DCFB9E0006BFF32 /* TimeChimeObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeChimeObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F5366C1DCFB9E0006BFF32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09F5366E1DCFB9E0006BFF32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09F5366F1DCFB9E0006BFF32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09F536711DCFB9E0006BFF32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09F536721DCFB9E0006BFF32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09F536751DCFB9E0006BFF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09F536771DCFB9E0006BFF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09F5367A1DCFB9E0006BFF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09F5367C1DCFB9E0006BFF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F536811DCFB9E0006BFF32 /* TimeChimeObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeChimeObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F536851DCFB9E0006BFF32 /* TimeChimeObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeChimeObjCTests.m; sourceTree = "<group>"; };
+		09F536871DCFB9E0006BFF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F5368C1DCFB9E0006BFF32 /* TimeChimeObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeChimeObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F536901DCFB9E0006BFF32 /* TimeChimeObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeChimeObjCUITests.m; sourceTree = "<group>"; };
+		09F536921DCFB9E0006BFF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F5369E1DCFBA90006BFF32 /* Ding-dong.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ding-dong.aif"; sourceTree = "<group>"; };
+		09F5369F1DCFBA90006BFF32 /* Ding.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ding.aif; sourceTree = "<group>"; };
+		09F536A01DCFBA90006BFF32 /* Dong.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dong.aif; sourceTree = "<group>"; };
+		09F536A11DCFBA90006BFF32 /* Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face.png; sourceTree = "<group>"; };
+		09F536A21DCFBA90006BFF32 /* HourHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HourHand.png; sourceTree = "<group>"; };
+		09F536A31DCFBA90006BFF32 /* MinuteHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinuteHand.png; sourceTree = "<group>"; };
+		09F536A41DCFBA90006BFF32 /* SecondHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F536651DCFB9E0006BFF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F5367E1DCFB9E0006BFF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F536891DCFB9E0006BFF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F5365F1DCFB9E0006BFF32 = {
+			isa = PBXGroup;
+			children = (
+				09F5366A1DCFB9E0006BFF32 /* TimeChimeObjC */,
+				09F536841DCFB9E0006BFF32 /* TimeChimeObjCTests */,
+				09F5368F1DCFB9E0006BFF32 /* TimeChimeObjCUITests */,
+				09F536691DCFB9E0006BFF32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F536691DCFB9E0006BFF32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F536681DCFB9E0006BFF32 /* TimeChimeObjC.app */,
+				09F536811DCFB9E0006BFF32 /* TimeChimeObjCTests.xctest */,
+				09F5368C1DCFB9E0006BFF32 /* TimeChimeObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F5366A1DCFB9E0006BFF32 /* TimeChimeObjC */ = {
+			isa = PBXGroup;
+			children = (
+				09F5366E1DCFB9E0006BFF32 /* AppDelegate.h */,
+				09F5366F1DCFB9E0006BFF32 /* AppDelegate.m */,
+				09F536711DCFB9E0006BFF32 /* ViewController.h */,
+				09F536721DCFB9E0006BFF32 /* ViewController.m */,
+				09F536741DCFB9E0006BFF32 /* Main.storyboard */,
+				09F536AC1DCFBA9B006BFF32 /* Images */,
+				09F536771DCFB9E0006BFF32 /* Assets.xcassets */,
+				09F536791DCFB9E0006BFF32 /* LaunchScreen.storyboard */,
+				09F5367C1DCFB9E0006BFF32 /* Info.plist */,
+				09F5366B1DCFB9E0006BFF32 /* Supporting Files */,
+			);
+			path = TimeChimeObjC;
+			sourceTree = "<group>";
+		};
+		09F5366B1DCFB9E0006BFF32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F5366C1DCFB9E0006BFF32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09F536841DCFB9E0006BFF32 /* TimeChimeObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F536851DCFB9E0006BFF32 /* TimeChimeObjCTests.m */,
+				09F536871DCFB9E0006BFF32 /* Info.plist */,
+			);
+			path = TimeChimeObjCTests;
+			sourceTree = "<group>";
+		};
+		09F5368F1DCFB9E0006BFF32 /* TimeChimeObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09F536901DCFB9E0006BFF32 /* TimeChimeObjCUITests.m */,
+				09F536921DCFB9E0006BFF32 /* Info.plist */,
+			);
+			path = TimeChimeObjCUITests;
+			sourceTree = "<group>";
+		};
+		09F536AC1DCFBA9B006BFF32 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				09F5369E1DCFBA90006BFF32 /* Ding-dong.aif */,
+				09F5369F1DCFBA90006BFF32 /* Ding.aif */,
+				09F536A01DCFBA90006BFF32 /* Dong.aif */,
+				09F536A11DCFBA90006BFF32 /* Face.png */,
+				09F536A21DCFBA90006BFF32 /* HourHand.png */,
+				09F536A31DCFBA90006BFF32 /* MinuteHand.png */,
+				09F536A41DCFBA90006BFF32 /* SecondHand.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F536671DCFB9E0006BFF32 /* TimeChimeObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F536951DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjC" */;
+			buildPhases = (
+				09F536641DCFB9E0006BFF32 /* Sources */,
+				09F536651DCFB9E0006BFF32 /* Frameworks */,
+				09F536661DCFB9E0006BFF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeChimeObjC;
+			productName = TimeChimeObjC;
+			productReference = 09F536681DCFB9E0006BFF32 /* TimeChimeObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09F536801DCFB9E0006BFF32 /* TimeChimeObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F536981DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjCTests" */;
+			buildPhases = (
+				09F5367D1DCFB9E0006BFF32 /* Sources */,
+				09F5367E1DCFB9E0006BFF32 /* Frameworks */,
+				09F5367F1DCFB9E0006BFF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F536831DCFB9E0006BFF32 /* PBXTargetDependency */,
+			);
+			name = TimeChimeObjCTests;
+			productName = TimeChimeObjCTests;
+			productReference = 09F536811DCFB9E0006BFF32 /* TimeChimeObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09F5368B1DCFB9E0006BFF32 /* TimeChimeObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F5369B1DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjCUITests" */;
+			buildPhases = (
+				09F536881DCFB9E0006BFF32 /* Sources */,
+				09F536891DCFB9E0006BFF32 /* Frameworks */,
+				09F5368A1DCFB9E0006BFF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F5368E1DCFB9E0006BFF32 /* PBXTargetDependency */,
+			);
+			name = TimeChimeObjCUITests;
+			productName = TimeChimeObjCUITests;
+			productReference = 09F5368C1DCFB9E0006BFF32 /* TimeChimeObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F536601DCFB9E0006BFF32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "AJ Schrier";
+				TargetAttributes = {
+					09F536671DCFB9E0006BFF32 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49Q44MK3CH;
+						ProvisioningStyle = Automatic;
+					};
+					09F536801DCFB9E0006BFF32 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09F536671DCFB9E0006BFF32;
+					};
+					09F5368B1DCFB9E0006BFF32 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09F536671DCFB9E0006BFF32;
+					};
+				};
+			};
+			buildConfigurationList = 09F536631DCFB9E0006BFF32 /* Build configuration list for PBXProject "TimeChimeObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09F5365F1DCFB9E0006BFF32;
+			productRefGroup = 09F536691DCFB9E0006BFF32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F536671DCFB9E0006BFF32 /* TimeChimeObjC */,
+				09F536801DCFB9E0006BFF32 /* TimeChimeObjCTests */,
+				09F5368B1DCFB9E0006BFF32 /* TimeChimeObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F536661DCFB9E0006BFF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F536AB1DCFBA90006BFF32 /* SecondHand.png in Resources */,
+				09F536A91DCFBA90006BFF32 /* HourHand.png in Resources */,
+				09F536A61DCFBA90006BFF32 /* Ding.aif in Resources */,
+				09F5367B1DCFB9E0006BFF32 /* LaunchScreen.storyboard in Resources */,
+				09F536A71DCFBA90006BFF32 /* Dong.aif in Resources */,
+				09F536A81DCFBA90006BFF32 /* Face.png in Resources */,
+				09F536781DCFB9E0006BFF32 /* Assets.xcassets in Resources */,
+				09F536A51DCFBA90006BFF32 /* Ding-dong.aif in Resources */,
+				09F536AA1DCFBA90006BFF32 /* MinuteHand.png in Resources */,
+				09F536761DCFB9E0006BFF32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F5367F1DCFB9E0006BFF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F5368A1DCFB9E0006BFF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F536641DCFB9E0006BFF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F536731DCFB9E0006BFF32 /* ViewController.m in Sources */,
+				09F536701DCFB9E0006BFF32 /* AppDelegate.m in Sources */,
+				09F5366D1DCFB9E0006BFF32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F5367D1DCFB9E0006BFF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F536861DCFB9E0006BFF32 /* TimeChimeObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F536881DCFB9E0006BFF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F536911DCFB9E0006BFF32 /* TimeChimeObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F536831DCFB9E0006BFF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F536671DCFB9E0006BFF32 /* TimeChimeObjC */;
+			targetProxy = 09F536821DCFB9E0006BFF32 /* PBXContainerItemProxy */;
+		};
+		09F5368E1DCFB9E0006BFF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F536671DCFB9E0006BFF32 /* TimeChimeObjC */;
+			targetProxy = 09F5368D1DCFB9E0006BFF32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09F536741DCFB9E0006BFF32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F536751DCFB9E0006BFF32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09F536791DCFB9E0006BFF32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F5367A1DCFB9E0006BFF32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09F536931DCFB9E0006BFF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09F536941DCFB9E0006BFF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F536961DCFB9E0006BFF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49Q44MK3CH;
+				INFOPLIST_FILE = TimeChimeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09F536971DCFB9E0006BFF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49Q44MK3CH;
+				INFOPLIST_FILE = TimeChimeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09F536991DCFB9E0006BFF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeChimeObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeChimeObjC.app/TimeChimeObjC";
+			};
+			name = Debug;
+		};
+		09F5369A1DCFB9E0006BFF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimeChimeObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeChimeObjC.app/TimeChimeObjC";
+			};
+			name = Release;
+		};
+		09F5369C1DCFB9E0006BFF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeChimeObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeChimeObjC;
+			};
+			name = Debug;
+		};
+		09F5369D1DCFB9E0006BFF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimeChimeObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeChimeObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F536631DCFB9E0006BFF32 /* Build configuration list for PBXProject "TimeChimeObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F536931DCFB9E0006BFF32 /* Debug */,
+				09F536941DCFB9E0006BFF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F536951DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F536961DCFB9E0006BFF32 /* Debug */,
+				09F536971DCFB9E0006BFF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F536981DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F536991DCFB9E0006BFF32 /* Debug */,
+				09F5369A1DCFB9E0006BFF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F5369B1DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F5369C1DCFB9E0006BFF32 /* Debug */,
+				09F5369D1DCFB9E0006BFF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F536601DCFB9E0006BFF32 /* Project object */;
+}
