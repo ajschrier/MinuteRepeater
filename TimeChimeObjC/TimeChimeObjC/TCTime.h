@@ -10,4 +10,7 @@
 
 @interface TCTime : NSObject
 
+@property NSInteger hours;
+@property NSInteger minutes;
+
 @end

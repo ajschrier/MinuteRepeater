@@ -22,6 +22,7 @@
 		09F536A91DCFBA90006BFF32 /* HourHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A21DCFBA90006BFF32 /* HourHand.png */; };
 		09F536AA1DCFBA90006BFF32 /* MinuteHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A31DCFBA90006BFF32 /* MinuteHand.png */; };
 		09F536AB1DCFBA90006BFF32 /* SecondHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F536A41DCFBA90006BFF32 /* SecondHand.png */; };
+		09F536AF1DCFBDF7006BFF32 /* TCTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F536AE1DCFBDF7006BFF32 /* TCTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		09F536A21DCFBA90006BFF32 /* HourHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HourHand.png; sourceTree = "<group>"; };
 		09F536A31DCFBA90006BFF32 /* MinuteHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinuteHand.png; sourceTree = "<group>"; };
 		09F536A41DCFBA90006BFF32 /* SecondHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand.png; sourceTree = "<group>"; };
+		09F536AD1DCFBDF7006BFF32 /* TCTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTime.h; sourceTree = "<group>"; };
+		09F536AE1DCFBDF7006BFF32 /* TCTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				09F5366F1DCFB9E0006BFF32 /* AppDelegate.m */,
 				09F536711DCFB9E0006BFF32 /* ViewController.h */,
 				09F536721DCFB9E0006BFF32 /* ViewController.m */,
+				09F536AD1DCFBDF7006BFF32 /* TCTime.h */,
+				09F536AE1DCFBDF7006BFF32 /* TCTime.m */,
 				09F536741DCFB9E0006BFF32 /* Main.storyboard */,
 				09F536AC1DCFBA9B006BFF32 /* Images */,
 				09F536771DCFB9E0006BFF32 /* Assets.xcassets */,
@@ -311,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F536731DCFB9E0006BFF32 /* ViewController.m in Sources */,
+				09F536AF1DCFBDF7006BFF32 /* TCTime.m in Sources */,
 				09F536701DCFB9E0006BFF32 /* AppDelegate.m in Sources */,
 				09F5366D1DCFB9E0006BFF32 /* main.m in Sources */,
 			);
