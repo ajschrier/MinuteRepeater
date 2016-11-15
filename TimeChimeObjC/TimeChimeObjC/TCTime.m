@@ -16,7 +16,7 @@
 - (id) init {
     self = [super init];
     NSDate *time = [NSDate date];
-    NSDateFormatter timeElements = [NSDateFormatter ]
+//    NSDateFormatter timeElements = [NSDateFormatter ]
     
     return self;
 }
