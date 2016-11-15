@@ -10,3 +10,4 @@ Just in case you were wondering what a [minute repeater][wiki] is, it's one of t
 ### Projects currently in the repo
 * a basic python version
 * a version written in an old version of Swift for iOS, may not compile
+* A version written in Objective-C for iOS
