@@ -236,7 +236,7 @@
 		09F536601DCFB9E0006BFF32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "AJ Schrier";
 				TargetAttributes = {
 					09F536671DCFB9E0006BFF32 = {
@@ -391,6 +391,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -439,6 +440,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -552,6 +554,7 @@
 				09F536971DCFB9E0006BFF32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F536981DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +563,7 @@
 				09F5369A1DCFB9E0006BFF32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F5369B1DCFB9E0006BFF32 /* Build configuration list for PBXNativeTarget "TimeChimeObjCUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +572,7 @@
 				09F5369D1DCFB9E0006BFF32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
