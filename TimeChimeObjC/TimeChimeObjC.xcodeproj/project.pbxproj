@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09233A151E237C4D00C85AE2 /* TCTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09233A141E237C4D00C85AE2 /* TCTimeTests.m */; };
 		09F5366D1DCFB9E0006BFF32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F5366C1DCFB9E0006BFF32 /* main.m */; };
 		09F536701DCFB9E0006BFF32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F5366F1DCFB9E0006BFF32 /* AppDelegate.m */; };
 		09F536731DCFB9E0006BFF32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F536721DCFB9E0006BFF32 /* ViewController.m */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09233A111E237C2300C85AE2 /* TimeChimeObjCTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeChimeObjCTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		09233A141E237C4D00C85AE2 /* TCTimeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTimeTests.m; sourceTree = "<group>"; };
 		09F536681DCFB9E0006BFF32 /* TimeChimeObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeChimeObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F5366C1DCFB9E0006BFF32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09F5366E1DCFB9E0006BFF32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,7 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				09F536851DCFB9E0006BFF32 /* TimeChimeObjCTests.m */,
+				09233A141E237C4D00C85AE2 /* TCTimeTests.m */,
 				09F536871DCFB9E0006BFF32 /* Info.plist */,
+				09233A111E237C2300C85AE2 /* TimeChimeObjCTests-Bridging-Header.h */,
 			);
 			path = TimeChimeObjCTests;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 					};
 					09F536801DCFB9E0006BFF32 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 09F536671DCFB9E0006BFF32;
 					};
@@ -327,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F536861DCFB9E0006BFF32 /* TimeChimeObjCTests.m in Sources */,
+				09233A151E237C4D00C85AE2 /* TCTimeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,10 +500,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TimeChimeObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeChimeObjCTests/TimeChimeObjCTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeChimeObjC.app/TimeChimeObjC";
 			};
 			name = Debug;
@@ -505,10 +516,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TimeChimeObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajschrier.TimeChimeObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeChimeObjCTests/TimeChimeObjCTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeChimeObjC.app/TimeChimeObjC";
 			};
 			name = Release;

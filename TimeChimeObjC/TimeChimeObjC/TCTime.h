@@ -12,5 +12,8 @@
 
 @property NSInteger hours;
 @property NSInteger minutes;
+@property NSInteger seconds;
+
+@property NSArray<NSString *> *timeComponents;
 
 @end

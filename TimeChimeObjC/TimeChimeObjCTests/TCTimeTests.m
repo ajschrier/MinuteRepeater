@@ -1,42 +1,42 @@
 //
-//  TimeChimeObjCTests.m
-//  TimeChimeObjCTests
+//  TCTimeTests.m
+//  TimeChimeObjC
 //
-//  Created by AJ Schrier on 11/6/16.
-//  Copyright © 2016 AJ Schrier. All rights reserved.
+//  Created by AJ Schrier on 1/9/17.
+//  Copyright © 2017 AJ Schrier. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "TCTime.h"
 
-@interface TimeChimeObjCTests : XCTestCase
+@interface TCTimeTests : XCTestCase
 
 @end
 
-@implementation TimeChimeObjCTests
+@implementation TCTimeTests
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-    NSLog(@"%s", __PRETTY_FUNCTION__);
     [super tearDown];
 }
 
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    TCTime *time = [[TCTime alloc] init];
+    NSLog(@"%li:%li:%li", (long)[time hours],
+                          (long)[time minutes],
+                          (long)[time seconds]);
 }
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
-        NSLog(@"%s", __PRETTY_FUNCTION__);
         // Put the code you want to measure the time of here.
     }];
 }

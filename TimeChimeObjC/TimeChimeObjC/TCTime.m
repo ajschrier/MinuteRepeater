@@ -10,13 +10,23 @@
 
 @implementation TCTime
 
-- (void) getTimeElements {
+- (NSArray *) getTimeElements {
+    return _timeComponents;
 }
 
 - (id) init {
     self = [super init];
     NSDate *time = [NSDate date];
-//    NSDateFormatter timeElements = [NSDateFormatter ]
+    
+    NSDateFormatter *dateformatter = [[NSDateFormatter alloc]init];
+    dateformatter.dateStyle = NSDateFormatterNoStyle;
+    dateformatter.timeStyle = NSDateFormatterMediumStyle;
+    
+    _timeComponents = [[dateformatter stringFromDate:time] componentsSeparatedByString:@":"];
+    
+    _hours = [_timeComponents[0] integerValue];
+    _minutes = [_timeComponents[1] integerValue];
+    _seconds = [_timeComponents[2] integerValue];
     
     return self;
 }
