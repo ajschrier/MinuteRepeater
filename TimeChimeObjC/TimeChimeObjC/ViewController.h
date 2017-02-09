@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TCTime.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *screenTap;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (strong, nonatomic) TCTime *time;
 
 
 @end
