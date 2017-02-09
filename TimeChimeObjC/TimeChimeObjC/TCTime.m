@@ -15,6 +15,7 @@
 }
 
 - (id) init {
+    NSLog(@"%s init new TCTime", __PRETTY_FUNCTION__);
     self = [super init];
     NSDate *time = [NSDate date];
     

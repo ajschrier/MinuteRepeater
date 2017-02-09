@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A2323a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -51,6 +51,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="U4W-4x-XSi" firstAttribute="top" secondItem="Hck-8c-wPn" secondAttribute="top" id="3Wv-Wd-3B8"/>
                             <constraint firstItem="U4W-4x-XSi" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="CJj-ux-3qf"/>
@@ -68,9 +69,21 @@
                             <constraint firstItem="hxM-ih-74Y" firstAttribute="centerX" secondItem="yS7-12-u5d" secondAttribute="centerX" id="zFO-gI-0Sx"/>
                             <constraint firstItem="yS7-12-u5d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zWP-7z-Tth"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="f3f-PU-hpU" appends="YES" id="3zh-tS-Qjc"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="screenTap" destination="f3f-PU-hpU" id="dLC-s5-vBL"/>
+                        <outlet property="timeLabel" destination="hxM-ih-74Y" id="VW2-ae-vQ9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="f3f-PU-hpU">
+                    <connections>
+                        <action selector="screenTapped:" destination="BYZ-38-t0r" id="6yU-pS-dOg"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
